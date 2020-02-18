@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "poissons"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Taille": {
+      "type": "integer"
+    },
+    "Poids": {
+      "type": "integer"
+    },
+    "Lieu": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    }
+  },
+  "connection": "default",
+  "collectionName": "poissons"
+}
